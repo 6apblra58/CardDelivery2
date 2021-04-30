@@ -19,7 +19,7 @@ public class CardDelivery2Test {
     @Test
     @DisplayName("Should successful plan and replan meeting")
     void shouldSuccessfulPlanAndReplanMeeting(){
-        val validUser = DataGenerator.Registration.generateUser("ru");
+        val validUser = DataGenerator.Registration.generateUser();
         val daysToAddForFirstMeeting = 4;
         val firstMeetingDate = DataGenerator.generateDate(daysToAddForFirstMeeting);
         val daysToAddForSecondMeeting = 7;
